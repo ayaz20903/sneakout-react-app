@@ -20,7 +20,9 @@ class Navbar extends Component {
 
             <ul className="navbar-nav align-item-center">
                 <li className="nav-item ml-3 text-blue">
-                    <strong>SNEAKOUT</strong>
+                    <Link to='/' className='font-weight-bold text-decoration-none text-blue'>
+                       SNEAKOUT 
+                    </Link>
                 </li> 
             </ul>
 
