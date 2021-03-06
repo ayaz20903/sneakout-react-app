@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function CartTotal({value}){
 
-    const{cartSubTotal, cartTax, cartTotal, clearCart} = value;
+    const{cartSubTotal, cartShipping, cartTotal, clearCart} = value;
 
     return(
         <>
@@ -27,9 +27,9 @@ export default function CartTotal({value}){
                         </h5>
                         <h5>
                             <span className="text-title">
-                                tax :
+                                shipping-charges :
                             </span>
-                            <strong> ₹ {cartTax}</strong>
+                            <strong> ₹ {cartShipping}</strong>
                         </h5>
                         <h5>
                             <span className="text-title">
