@@ -11,10 +11,10 @@ class Details extends Component {
                     const {id,company, img, info, price,title,inCart} =
                      value.detailProduct;
                      return(
-                        <div className="div container py-5">
+                        <div className="container py-5">
 
                             {/*  title */}
-                            <div className="div row">
+                            <div className="row">
                                 <div className="div col-10 mx-auto text-center text-blue my-5">
                                     <h2>{title}</h2>
                                 </div>
@@ -22,7 +22,7 @@ class Details extends Component {
                             {/* end title */}
 
                             {/* product info */}
-                            <div className="div row">
+                            <div className="row">
                                 <div className="col-10 mx-auto col-md-6 my-3">
                                     <img src={img} alt='product' className='img-fluid'/>
                                 </div>

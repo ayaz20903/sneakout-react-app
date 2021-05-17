@@ -4,7 +4,7 @@
   --mainWhite:#f3f3f3;
   --mainDark:#232528;
   --mainYellow:#ffa400;
- 
+  
 }
 
 
@@ -12,15 +12,15 @@
 body{
   
   font-family: "Montserrat" , "sans-serif"  !important;
-  /* background: var(--mainWhite) !important;
-  color: var(--mainDark) !important;  */
+  background: #f7f7f7 !important;
+  color: var(--mainDark) !important;
 
   /* background: rgb(126,20,73);
  background: linear-gradient(180deg, rgba(126,20,73,1) 0%, rgba(255,130,192,0.9728933809852066) 50%, rgba(126,20,73,1) 100%);  */
 
   /* background-color: #A9C9FF; */
-  background-image: linear-gradient(180deg, #FFBBEC 0%, #A9C9FF 100%) !important ;
-  height: 100%;
+  /* background-image: linear-gradient(180deg, #FFBBEC 0%, #A9C9FF 100%) !important ;
+  height: 100%; */
 }
 
 .text-tittle{ 
@@ -29,7 +29,10 @@ body{
   text-transform: uppercase;
 }
 
-.text-blue{
+.text-yellow{
+  color: var(--mainYellow);
+}
+.text-maroon{
   color: var(--Maroon);
 }
 

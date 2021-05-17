@@ -15,8 +15,8 @@ class Navbar extends Component {
             </Link>
 
             <ul className="navbar-nav align-item-center">
-                <li className="nav-item ml-3 text-blue">
-                    <Link to='/' className='font-weight-bold text-decoration-none text-blue'>
+                <li className="nav-item ml-3 text-yellow">
+                    <Link to='/' className='font-weight-bold text-decoration-none text-yellow'>
                        SNEAKOUT 
                     </Link>
                 </li> 
@@ -42,7 +42,7 @@ export default Navbar;
 
 
 const NavWrapper = styled.nav`
-    // background: var(--mainWhite);
+    background: var(--Maroon);
     color: #f3f3f3;
     font-size: 1.3rem;
 `
